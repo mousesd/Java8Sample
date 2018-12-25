@@ -63,5 +63,12 @@ public class Main {
         PersonFactory<Person> personPersonFactory = Person::new;
         Person person = personPersonFactory.create("Peter", "Parker");
         System.out.println(person);
+
+        //PersonFactory<Person> personPersonFactory = new PersonFactory<Person>() {
+        //    @Override
+        //    public Person create(String firstName, String lastName) {
+        //        return new Person("Peter", "Parker");
+        //    }
+        //};
     }
 }
