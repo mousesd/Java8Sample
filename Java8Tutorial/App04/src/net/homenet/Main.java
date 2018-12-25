@@ -38,6 +38,7 @@ public class Main {
         String firstName;
         String lastName;
 
+        @SuppressWarnings("unused")
         Person() { }
 
         Person(String firstName, String lastName) {
