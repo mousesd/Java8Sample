@@ -33,6 +33,13 @@ public class Main {
         count = count + 1;
     }
 
+    //# or
+    //  private void incrementSync() {
+    //      synchronized (this) {
+    //          count = count + 1;
+    //      }
+    //  }
+
     private void runSynchronizedSample2() {
         count = 0;
         ExecutorService executor = Executors.newFixedThreadPool(2);

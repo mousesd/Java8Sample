@@ -3,7 +3,7 @@ package net.homenet;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.TimeUnit;
 
-@SuppressWarnings({"Duplicates", "WeakerAccess", "unused"})
+@SuppressWarnings({"Duplicates", "WeakerAccess"})
 public class ConcurrentUtils {
     public static void sleep(int seconds) {
         try {
